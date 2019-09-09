@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  
+  dotnetconf19:
+    image: dockersamples/dotnetconf:19    
+    build:
+      context: .
